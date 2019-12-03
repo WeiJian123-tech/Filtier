@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="The Filtier Homepage">
+<meta name="keywords" content="Filtier, Donations, Filter, Filtration, Company">
+<meta name="author" content="Wei Jian Zhen, Gareth Felix, Dyanna Arias">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donate</title>
+<link rel="stylesheet" type="text/css" href="Filtier.css">
+<link rel="icon" type="image/png" sizes="16x16" href="d9d68f0db7e7b0d0f5caac1983308924.ico/favicon-16x16.png">
+</head>
+
+<body>
+	<nav>
+		<div id="topBanner">
+		<!--Image of the company banner/logo below. Better to have it as a banner so that the nav can have buttons to click on.-->
+		<img src="Filtier_Banner.png" alt="Banner">
+		</div>
+		
+		<!--Hamburger menu, navigation bar, and buttons. Credits from www.w3schools.com for the dropdown menu code.-->
+		<div id="navigationBar">
+			
+			<div id="sideButtons">
+				<a href="FiltierIndex.html">Home</a>
+				<a href="FiltierDonate.html">Donate</a>
+				<a href="FiltierVolunteer.html">Volunteer</a>
+				<a href="FiltierStore.html">Store</a>
+				<a href="FiltierDiscover.html">Discover</a>
+				<a href="About.html">About</a>
+			</div>
+			
+			<!--W3Schools/https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js-->
+			<div class="container" id="cont" onclick="hM(this)">
+			  <div class="bar1"></div>
+			  <div class="bar2"></div>
+			  <div class="bar3"></div>
+			</div>
+			
+			<div class="dropdown-content" id="myDropdown">
+				<ul id="navlist">
+					<li>
+						<a class="aBoxes" href="FiltierIndex.html">
+							<p class="txt">Home</p>
+						</a>
+					</li>
+					
+					<li>
+						<a class="aBoxes" href="FiltierDonate.html">
+							<p class="txt">Donate</p>
+						</a>
+					</li>
+					
+					<li>
+						<a class="aBoxes" href="FiltierVolunteer.html">
+							<p class="txt">Volunteer</p>
+						</a>
+					</li>
+					
+					<li>
+						<a class="aBoxes" href="FiltierStore.html">
+							<p class="txt">Store</p>
+						</a>
+					</li>
+					
+					<li>
+						<a class="aBoxes" href="FiltierDiscover.html">
+							<p class="txt">Discover</p>
+						</a>
+					</li>
+					
+					<li>
+						<a class="aBoxes" href="About.html">
+							<p class="txt">About</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+	
+	<main>
+		<h1>Donations</h1>
+		<h3>Donate Money</h3>
+		<form>
+			<button type="button" class="donateBtn" onClick="donate();">$10</button>
+			<button type="button" class="donateBtn" onClick="donate();">$25</button>
+			<button type="button" class="donateBtn" onClick="donate();">$50</button>
+			<button type="button" class="donateBtn" onClick="donate();">$75</button>
+			<button type="button" class="donateBtn" onClick="donate();">$100</button>
+			<button type="button" class="donateBtn" onClick="donate();">$250</button>
+			<button type="button" class="donateBtn" onClick="donate();">$500</button>
+			<button type="button" class="donateBtn" onClick="donate();">$1000</button>
+			
+			<br>
+			<br>
+			
+			<input type="text"  id="insertMoney" placeholder="$____________________">
+			<input type="submit"  id="insertMoneyBtn" value="submit">
+		</form>
+		
+		<br>
+		
+		<h3>Donate Water</h3>
+		<button type="button" class="donateBtn" onClick="donate();">1 liter</button>
+		<button type="button" class="donateBtn" onClick="donate();">2 liters</button>
+		<button type="button" class="donateBtn" onClick="donate();">5 liters</button>
+		<button type="button" class="donateBtn" onClick="donate();">10 liters</button>
+		<button type="button" class="donateBtn" onClick="donate();">25 liters</button>
+		<br>
+		<br>
+	</main>
+	
+	<br>
+	
+	<footer>
+		<a href="About.html">About</a>
+		<a href="FiltierPrivacyPolicy.html">Privacy Policy</a>
+		<a href="FiltierTermsofUse.html">Terms of Use</a>
+		
+		<br>
+		<br>
+		
+		<!--Placeholder copied from website. Do not use in final product.-->
+		<a href="tel:5554280099">Call us at 555-428-0099</a>
+		<a href="#">CustomerService@Filtier.org</a>
+		
+		<br>
+		<br>
+		
+		<a href="https://www.linkedin.com/">
+			<img src="iconfinder_1_Linkedin_unofficial_colored_svg_5296501 (1).png" alt="Linkden">
+		</a>
+		
+		<a href="https://twitter.com/?lang=en">
+			<img src="iconfinder_1_Twitter3_colored_svg_5296516.png" alt="Twitter">
+		</a>
+		
+		<a href="https://www.instagram.com/?hl=en">
+			<img src="iconfinder_social-03_3146786.png" alt="Instagram">
+		</a>
+	</footer>
+	
+	<script src="Filtier.js" type="text/javascript"></script>
+</body>
+</html>
